@@ -1,0 +1,166 @@
+/* la page */
+*{
+    margin: 0;
+}
+body{
+    width:60%;
+    height: auto;
+    margin:0 auto;
+    box-shadow: 2px 1px 2px 1px;
+    padding: 12px 0px;
+    background-color: #f1eded;
+}
+
+/* l'entete de la page */
+
+.tete{
+    text-align: center;
+    margin-top:20px;
+    border-bottom: 5px Solid #af6259 ;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tete h1{
+    font-size: 3em;
+    font-family: "RoxboroughCF";
+}
+.tete span{
+    font-family: "Montserrat";
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* main */
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#main .col1{
+    width: auto;
+    height: auto;
+}
+.col1 h2{
+    border-bottom: 4px solid #af6259;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    font-family: "Montserrat semi-bold",sans-serif;
+}
+.partie .contenue{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.sous-titre{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+
+}
+.col{
+    width: 430px;
+}
+.col1 p{
+    font-size: 19px;
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+}
+.col1 .competance{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.competance p{
+    display: block;
+    justify-content:  left;
+}
+.competance h4{
+    width: 200px;
+}
+.col1 p span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #737373;
+}
+.competance .item{
+    background-color: #af6259;
+}
+/* deuxieme colone */
+.col2 h2{
+    background-color:#e48e84;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Montserrat semi-bold",sans-serif;
+    border-radius: 12px;
+    margin: 12px 0;
+    font-size: 20px;
+}
+.col2 .contener{
+    margin-left: 12px;
+    border-left: 4px solid #af6259;
+    padding-left: 20px;
+}
+.point h3{
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.point span{
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Montserrat",sans-serif;
+}
+.point p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 2px;
+}
+.col2 .loisir{
+    border: none;
+}
+
+.contener .point{
+    margin:4px auto
+}
+.contener small{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative; 
+}
+.contener .dote{
+    left:-27px;
+    bottom: -12px;
+
+}
+
+/* bas de page */
+
+.foot{
+    margin: 30px;
+    padding-left: auto auto;
+}
+.foot h2{
+    width: 40%;
+    margin-left: 30%;
+    border-bottom:4px solid #af6259;
+    padding-bottom: 4px;
+}
+.foot ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.foot ul li{
+    width: 300px;
+}
